@@ -15,6 +15,7 @@ import io.realm.RealmBaseAdapter;
  * Created by nomuradaichi on 2018/05/03.
  */
 
+
 public class ReadingLogAdapter extends RealmBaseAdapter<ReadingLog> {
 
     private static class ViewHolder {
