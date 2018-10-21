@@ -52,6 +52,7 @@ public class ReadingLogEditActivity extends AppCompatActivity {
         }
     }
 
+    //保存ボタン
     public void onSaveTapped(View view) {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
         Date dateParse = new Date();
@@ -105,6 +106,7 @@ public class ReadingLogEditActivity extends AppCompatActivity {
         }
     }
 
+    //削除ボタン
     public void onDeleteTapped(View view) {
         final long readingLogId = getIntent().getLongExtra("readingLog_id", -1);
         if(readingLogId != -1) {
